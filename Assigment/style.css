@@ -1,0 +1,88 @@
+
+/*here we using Universla Selector*/
+
+*{
+  margin:0;
+  padding:0;
+  font-family:0;
+}
+/*here we set width and height, backgroun,color of container selector */
+.container{
+           width:100%;
+           height:100vh;
+           background:#1e2227;
+           color:#fff;
+}
+/* here we set logo width and cursor*/
+.logo{
+  width: 120px;
+  cursor:pointer;
+}
+/* here we set width margin of img*/
+ .img{
+
+         width:25px;
+         margin-left:30px;
+         cursor:pointer;
+}
+/*  here we set row class height,width,display,background-color*/
+.row{
+  height:100%;
+  width:100%;
+  display:flex;
+  background-color: cadetblue;
+}
+/* here we style coloumn of webpage*/
+.col-1,.col-2{
+
+        flex-basis:50%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+}
+/* col-2 given background color*/
+.col-2{
+   background:red;
+
+}
+/* col-1 given padding*/
+.col-1{
+       padding-left:8%;
+}
+/* col-1  h1 given font,line-height,margin-bottom*/
+.col-1 h1{
+
+        font: size 74px;
+        line-height:100px;
+        margin-bottom:5px;
+
+}
+/* col-1  h2 given font-size, margin-top , font-weight*/
+.col-1 h2{
+  font-size:35px;
+  margin-top:60px;
+  font-weight:500;
+}
+/* here we give style to button*/
+button{
+  display:inline-block;
+  width:fit-content;
+  padding:18px 50px;
+  background:red;
+  border:none;
+  color:#fff;
+  font-size: 18px;
+  margin-top:20px;
+  cursor:pointer;
+}
+/* here we give style to feature img*/
+.feature-img{
+     width:100%;
+     text-align:center;
+}
+/* here we give style to feature img*/
+.feature-img img{
+  width:80%;
+
+}
